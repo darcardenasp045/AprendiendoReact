@@ -6,8 +6,10 @@ function FormularioBasico () {
     const [apellido, serApellido] = useState('')
 
     const handleName = (e) =>{
+        
         e.preventDefault()
         alert(`Hola ${nombre} ${apellido}`)
+        setNombre('')
 
         
     }
